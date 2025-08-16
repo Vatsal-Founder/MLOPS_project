@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/vatsal/Machine%20Learning/MLOPS/End_to_end_project/MLOPS_project/mlruns/0/c659faba69bc488ab1b30a64230e0f2b/artifacts
+end_time: 1755359183679
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c659faba69bc488ab1b30a64230e0f2b
+run_name: funny-loon-454
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755359182254
+status: 3
+tags: []
+user_id: vatsal

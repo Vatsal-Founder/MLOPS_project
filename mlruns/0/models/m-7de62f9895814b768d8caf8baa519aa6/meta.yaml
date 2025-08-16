@@ -1,0 +1,10 @@
+artifact_location: file:///Users/vatsal/Machine%20Learning/MLOPS/End_to_end_project/MLOPS_project/mlruns/0/models/m-7de62f9895814b768d8caf8baa519aa6/artifacts
+creation_timestamp: 1755359182267
+experiment_id: '0'
+last_updated_timestamp: 1755359183677
+model_id: m-7de62f9895814b768d8caf8baa519aa6
+model_type: null
+name: model
+source_run_id: c659faba69bc488ab1b30a64230e0f2b
+status: 2
+status_message: null

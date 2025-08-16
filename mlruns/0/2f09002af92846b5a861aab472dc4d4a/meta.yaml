@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/vatsal/Machine%20Learning/MLOPS/End_to_end_project/MLOPS_project/mlruns/0/2f09002af92846b5a861aab472dc4d4a/artifacts
+end_time: 1755358650278
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2f09002af92846b5a861aab472dc4d4a
+run_name: adorable-ray-660
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755358650267
+status: 3
+tags: []
+user_id: vatsal
