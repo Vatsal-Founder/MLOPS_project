@@ -13,9 +13,9 @@ from src.MLOPS.entity.config_entity import ModelEvaluationConfig
 
 import os
 
-os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/Vatsal-Founder/MLOPS_project.mlflow"
-os.environ["MLFLOW_TRACKING_USERNAME"] = "Vatsal-Founder"
-os.environ["MLFLOW_TRACKING_PASSWORD"] = "69bb8e040b594c9b286a371e8bffed3b11ab2423"
+#os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/Vatsal-Founder/MLOPS_project.mlflow"
+#os.environ["MLFLOW_TRACKING_USERNAME"] = "your-username"
+#os.environ["MLFLOW_TRACKING_PASSWORD"] = "your-password"
 
 
 class ModelEvaluation:

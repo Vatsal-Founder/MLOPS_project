@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/vatsal/Machine%20Learning/MLOPS/End_to_end_project/MLOPS_project/mlruns/0/b140320b2d4740c6b9e9a387f3e229d3/artifacts
+end_time: 1755362033584
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b140320b2d4740c6b9e9a387f3e229d3
+run_name: gregarious-hen-873
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755362033573
+status: 3
+tags: []
+user_id: vatsal

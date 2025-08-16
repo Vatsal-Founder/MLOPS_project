@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/vatsal/Machine%20Learning/MLOPS/End_to_end_project/MLOPS_project/mlruns/0/52bd2527fbe541e482546a375dbc67a7/artifacts
+end_time: 1755361645879
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 52bd2527fbe541e482546a375dbc67a7
+run_name: mercurial-ray-978
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755361645868
+status: 3
+tags: []
+user_id: vatsal
