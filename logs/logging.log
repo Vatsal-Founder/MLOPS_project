@@ -1,1 +1,285 @@
 [2025-08-09 12:25:18,178: INFO: main: Logging has been set up successfully.]
+[2025-08-16 13:03:09,321: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-08-16 13:03:09,323: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-16 13:03:09,324: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-16 13:03:09,325: INFO: common: created directory at: artifacts]
+[2025-08-16 13:03:09,325: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-16 13:03:27,348: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-08-16 13:03:27,349: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-16 13:03:27,350: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-16 13:03:27,350: INFO: common: created directory at: artifacts]
+[2025-08-16 13:03:27,351: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-16 13:04:30,373: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-08-16 13:04:30,374: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-16 13:04:30,375: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-16 13:04:30,375: INFO: common: created directory at: artifacts]
+[2025-08-16 13:04:30,376: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-16 13:04:30,786: INFO: 251335794: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: EECE:33D4EC:188B5:15BCB7:68A073C9
+Accept-Ranges: bytes
+Date: Sat, 16 Aug 2025 12:04:30 GMT
+Via: 1.1 varnish
+X-Served-By: cache-dub4324-DUB
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1755345871.739376,VS0,VE105
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 4cf97b60f81aa6fca8ae6702897aae0f7295e1ec
+Expires: Sat, 16 Aug 2025 12:09:30 GMT
+Source-Age: 0
+
+]
+[2025-08-16 13:21:12,513: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-16 13:21:12,514: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-08-16 13:21:12,514: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-16 13:21:12,514: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-16 13:21:12,514: INFO: common: created directory at: artifacts]
+[2025-08-16 13:21:12,514: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-16 13:21:12,897: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: EECE:33D4EC:188B5:15BCB7:68A073C9
+Accept-Ranges: bytes
+Date: Sat, 16 Aug 2025 12:21:12 GMT
+Via: 1.1 varnish
+X-Served-By: cache-dub4336-DUB
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1755346873.843298,VS0,VE106
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 8d0ae453f2953d6143c7d2fd31bc833c5bb49042
+Expires: Sat, 16 Aug 2025 12:26:12 GMT
+Source-Age: 0
+
+]
+[2025-08-16 13:21:12,901: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-16 13:43:38,961: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-08-16 13:43:38,962: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-16 13:43:38,964: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-16 13:43:38,964: INFO: common: created directory at: artifacts]
+[2025-08-16 13:43:38,965: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-16 13:43:55,569: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-08-16 13:43:55,570: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-16 13:43:55,572: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-16 13:43:55,573: INFO: common: created directory at: artifacts]
+[2025-08-16 13:43:55,573: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-16 13:43:55,573: ERROR: 297557633: "'ConfigBox' object has no attribute 'all_schema'"]
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'all_schema'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'all_schema'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'all_schema'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'all_schema'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'all_schema'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'all_schema'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'all_schema'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/folders/zk/l_pq96ms1qvfyjkxyzyz0qgm0000gn/T/ipykernel_5056/297557633.py", line 3, in <module>
+    data_validation_config = config.get_data_validation_config()
+  File "/var/folders/zk/l_pq96ms1qvfyjkxyzyz0qgm0000gn/T/ipykernel_5056/1712767539.py", line 25, in get_data_validation_config
+    all_schema=config.all_schema
+  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'all_schema'"
+[2025-08-16 13:47:52,916: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-08-16 13:47:52,917: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-16 13:47:52,919: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-16 13:47:52,919: INFO: common: created directory at: artifacts]
+[2025-08-16 13:47:52,920: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-16 13:47:52,920: ERROR: 2519673437: "'ConfigBox' object has no attribute 'all_schema'"]
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'all_schema'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'all_schema'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'all_schema'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'all_schema'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'all_schema'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'all_schema'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'all_schema'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/folders/zk/l_pq96ms1qvfyjkxyzyz0qgm0000gn/T/ipykernel_5056/2519673437.py", line 3, in <module>
+    data_validation_config = config.get_data_validation_config()
+  File "/var/folders/zk/l_pq96ms1qvfyjkxyzyz0qgm0000gn/T/ipykernel_5056/1712767539.py", line 25, in get_data_validation_config
+    all_schema=config.all_schema
+  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'all_schema'"
+[2025-08-16 13:50:03,919: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-08-16 13:50:03,920: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-16 13:50:03,923: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-16 13:50:03,924: INFO: common: created directory at: artifacts]
+[2025-08-16 13:50:03,924: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-16 13:50:03,925: ERROR: 2519673437: "'ConfigBox' object has no attribute 'all_schema'"]
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'all_schema'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'all_schema'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'all_schema'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'all_schema'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'all_schema'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 633, in box.box.Box.__getattr__
+  File "box/box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'all_schema'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'all_schema'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/folders/zk/l_pq96ms1qvfyjkxyzyz0qgm0000gn/T/ipykernel_5056/2519673437.py", line 3, in <module>
+    data_validation_config = config.get_data_validation_config()
+  File "/var/folders/zk/l_pq96ms1qvfyjkxyzyz0qgm0000gn/T/ipykernel_5056/1712767539.py", line 25, in get_data_validation_config
+    all_schema=config.all_schema
+  File "box/config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'all_schema'"
+[2025-08-16 13:51:24,344: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-08-16 13:51:24,346: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-16 13:51:24,347: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-16 13:51:24,348: INFO: common: created directory at: artifacts]
+[2025-08-16 13:51:24,348: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-16 14:10:36,340: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-16 14:10:36,342: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-08-16 14:10:36,342: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-16 14:10:36,342: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-16 14:10:36,342: INFO: common: created directory at: artifacts]
+[2025-08-16 14:10:36,343: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-16 14:10:36,343: INFO: data_ingestion: File already exists]
+[2025-08-16 14:10:36,344: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-16 14:10:36,344: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-08-16 14:10:36,344: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-08-16 14:10:36,345: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-16 14:10:36,345: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-16 14:10:36,345: INFO: common: created directory at: artifacts]
+[2025-08-16 14:10:36,345: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-16 14:10:36,348: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
