@@ -19,22 +19,8 @@ End‑to‑end **MLOps** project that predicts wine quality from physicochemical
 
 ## Architecture
 
-```
-                ┌────────────────────────────────────────────────────┐
-                │                       CI/CD                        │
-                │  (GitHub Actions → build, test, image, deploy)     │
-                └────────────────────────────────────────────────────┘
-                                     │
-Raw data  ──►  Ingestion  ──►  Validation  ──►  Transformation  ──►  Training  ──►  Evaluation
- (CSV)         (load)           (schema)         (FE, scaling)        (model)         (MLflow)
-                                                                                 │
-                                                                                 ▼
-                                                                             Registry
-                                                                                 │
-                                                                                 ▼
-                                                                           Inference API
-                                                                              (`app.py`)
-```
+
+<img width="1536" height="1024" alt="ChatGPT Image Mar 9, 2026 at 05_18_29 PM" src="https://github.com/user-attachments/assets/24551af9-732c-430e-8011-2567f595d186" />
 
 ---
 
